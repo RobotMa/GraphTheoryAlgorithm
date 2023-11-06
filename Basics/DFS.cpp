@@ -74,7 +74,7 @@ struct edge_categorizer : public boost::dfs_visitor<VisitorList> {
 };
 
 template <class VisitorList>
-edge_categorizer<VisitorList> categorize_edges(const VisitorList& v) {
+auto categorize_edges(const VisitorList& v) {
   return edge_categorizer<VisitorList>(v);
 }
 
