@@ -1,6 +1,5 @@
+//#include <format>
 #include <iostream>
-#include <ranges>
-#include <span>
 #include <utility>
 #include <vector>
 
